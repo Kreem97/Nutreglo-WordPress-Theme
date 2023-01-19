@@ -17,6 +17,7 @@ $related_products_html = '';
 $product_related_products = $product_obj->get_related();
 foreach($product_related_products as $related_product_id){
     $related_product_obj = wc_get_product( $related_product_id );
+    $related_product_url = get_permalink( $related_product_id );
     $related_product_img_url = wp_get_attachment_image_src( $related_product_obj->get_image_id(), 'woocommerce_single' );
     $related_product_name = $related_product_obj->get_name();
     $related_product_regular_price = $related_product_obj->get_regular_price();
@@ -36,10 +37,10 @@ foreach($product_related_products as $related_product_id){
     $related_products_html .= '
     <div class="product-item bg-light">
         <div class="product-img position-relative overflow-hidden">
-            <img class="img-fluid w-100" src="'.$related_product_img_url.'" alt="">
+            <img class="img-fluid w-100" src="'.$related_product_img_url[0].'" alt="Image">
         </div>
         <div class="text-center py-4">
-            <a class="h6 text-decoration-none text-truncate" href="">'.$related_product_name.'</a>
+            <a class="h6 text-decoration-none text-truncate" href="'.$related_product_url.'">'.$related_product_name.'</a>
             <div class="d-flex align-items-center justify-content-center mt-2">
                 '.$product_price_html.'
             </div>
