@@ -107,11 +107,16 @@ function toggleCheckbox(qp_sort) {
     var urlQuery = "";
     var shopCatObjs = document.getElementsByClassName("shop-cat-checkbox");
     for(i = 0; i < shopCatObjs.length; i++) {
+        cat = shopCatObjs[i].dataset.category;
+        if(cat.includes("&")) {
+            cat = cat.replaceAll("&", "%26");
+        }
+
         if(shopCatObjs[i].checked && urlQuery == "") {
-            urlQuery += "cat[]=" + shopCatObjs[i].dataset.category;
+            urlQuery += "cat[]=" + cat;
         }
         else if(shopCatObjs[i].checked) {
-            urlQuery += "&cat[]=" + shopCatObjs[i].dataset.category;
+            urlQuery += "&cat[]=" + cat;
         }
     }
 
