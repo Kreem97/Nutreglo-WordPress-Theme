@@ -38,9 +38,9 @@
                 <div class="col-md-4 mb-5">
                     <h6 class="text-secondary text-uppercase mb-4">Follow Us</h6>
                     <div class="d-flex">
-                        <a class="btn btn-primary btn-square mr-2" target="_blank" href="https://twitter.com/nutreglop"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-primary btn-square mr-2" target="_blank" href="https://www.facebook.com/nutregloproductscom/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-primary btn-square" target="_blank" href="https://www.instagram.com/nutregloproducts/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-primary btn-square mr-2" target="_blank" href="https://twitter.com/nutreglop" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary btn-square mr-2" target="_blank" href="https://www.facebook.com/nutregloproductscom/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-square" target="_blank" href="https://www.instagram.com/nutregloproducts/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
             </p>
         </div>
         <div class="col-md-6 px-xl-0 text-center text-md-right">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/payments.png" alt="">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/payments.avif" alt="Payments">
         </div>
     </div>
 </div>
@@ -63,7 +63,7 @@
 <!-- <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a> -->
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <?php wp_footer(); ?>
 

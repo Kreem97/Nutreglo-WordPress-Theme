@@ -97,8 +97,7 @@ wp_reset_query();
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item position-relative active" style="height: 430px;">
-                        <img class="position-absolute w-100 h-100" src="<?php echo get_template_directory_uri() ?>/img/npenergyboosters.JPG"
-                             style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="<?php echo get_template_directory_uri() ?>/img/npenergyboosters.avif" alt="Energy Boosters" style="object-fit: cover;">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Energy Boosters</h1>
@@ -107,8 +106,7 @@ wp_reset_query();
                         </div>
                     </div>
                     <div class="carousel-item position-relative" style="height: 430px;">
-                        <img class="position-absolute w-100 h-100" src="<?php echo get_template_directory_uri() ?>/img/npweightloss.png"
-                             style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="<?php echo get_template_directory_uri() ?>/img/npweightloss.avif" alt="Weight Loss" style="object-fit: cover;">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Weight Loss</h1>
@@ -117,8 +115,7 @@ wp_reset_query();
                         </div>
                     </div>
                     <div class="carousel-item position-relative" style="height: 430px;">
-                        <img class="position-absolute w-100 h-100" src="<?php echo get_template_directory_uri() ?>/img/npherbalextracts.png"
-                             style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="<?php echo get_template_directory_uri() ?>/img/npherbalextracts.avif" alt="Herbal Extracts" style="object-fit: cover;">
                         <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                             <div class="p-3" style="max-width: 700px;">
                                 <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Herbal Extracts</h1>
@@ -131,7 +128,7 @@ wp_reset_query();
         </div>
         <div class="col-lg-4">
             <div class="product-offer mb-30" style="height: 200px;">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/npfatburnerbundle.jpeg" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/npfatburnerbundle.avif" alt="">
                 <div class="offer-text">
                     <h6 class="text-white text-uppercase">APPETITE SUPPRESSANT</h6>
                     <h3 class="text-white mb-3">FAT BURNER BUNDLE</h3>
@@ -139,7 +136,7 @@ wp_reset_query();
                 </div>
             </div>
             <div class="product-offer mb-30" style="height: 200px;">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/npbellyfatreducers.jpeg" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/npbellyfatreducers.avif" alt="">
                 <div class="offer-text">
                     <h6 class="text-white text-uppercase">KETO</h6>
                     <h3 class="text-white mb-3">BELLY FAT FLUSH</h3>
@@ -174,7 +171,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=whole+body+weight+loss">
                 <div class="cat-item d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/Weightloss.png" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/Weightloss.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Weight Loss</h6>
@@ -186,7 +183,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=cleansers+and+detoxifiers">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/cleansers.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/cleansers.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Cleansers & Detoxifiers</h6>
@@ -198,7 +195,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=energy+boosters">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/energy%20boosters.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/energy%20boosters.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Energy Boosters</h6>
@@ -210,7 +207,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=Aphrodisiacs%20Stamina%20Builders">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/aphrodisiacs.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/aphrodisiacs.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Stamina Builders + Aphrodisiacs</h6>
@@ -222,7 +219,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=herbal+extracts+and+remedies">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/HERBALTEAS.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/HERBALTEAS.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Herbal Extracts</h6>
@@ -234,7 +231,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=wellness+bundles">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/BUNDLES.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/BUNDLES.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Wellness Bundles</h6>
@@ -246,7 +243,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=rapid+belly+fat+reducers">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/BellyFat.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/BellyFat.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Rapid Belly Fat Reducers</h6>
@@ -258,7 +255,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=On+Sale">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/onsale.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/onsale.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>On Sale</h6>
@@ -270,7 +267,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=Women%27s+wellness+Products">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/women%20wellness.png" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/women%20wellness.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Women Wellness</h6>
@@ -282,7 +279,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=organic+powder">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/ORGANICPOWDER.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/ORGANICPOWDER.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Organic Powder</h6>
@@ -294,7 +291,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=organ+support">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/7-Day-Organ.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/7-Day-Organ.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Organ Support</h6>
@@ -306,7 +303,7 @@ wp_reset_query();
             <a class="text-decoration-none" href="<?php echo get_site_url(); ?>/shop?cat[]=immune+support">
                 <div class="cat-item img-zoom d-flex align-items-center mb-4">
                     <div class="overflow-hidden" style="width: 100px; height: 100px;">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/immunesupport.jpg" alt="">
+                        <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/categories/immunesupport.avif" alt="">
                     </div>
                     <div class="flex-fill pl-3">
                         <h6>Immune Support</h6>
@@ -335,7 +332,7 @@ wp_reset_query();
     <div class="row px-xl-5 align-items-center justify-content-center">
         <div class="col-md-6 align-items-center justify-content-center">
             <div class="product-offer mb-30" style="height: 300px;">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/npbloodninternalcleanser.jpeg" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/npbloodninternalcleanser.avif" alt="">
                 <div class="offer-text">
                     <h6 class="text-white text-uppercase">DIETARY SUPPLEMENT</h6>
                     <h3 class="text-white mb-3">BLOOD & INTERNAL CLEANSER</h3>
