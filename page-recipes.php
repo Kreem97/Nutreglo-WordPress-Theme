@@ -22,7 +22,7 @@
             <div id="product-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner bg-light">
                     <div class="carousel-item active">
-                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/berry-kale-smoothie.avif" alt="Image">
+                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/berry-kale-smoothie.png" alt="Image">
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
             <div id="product-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner bg-light">
                     <div class="carousel-item active">
-                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/green-smoothie.avif" alt="Image">
+                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/green-smoothie.png" alt="Image">
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
             <div id="product-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner bg-light">
                     <div class="carousel-item active">
-                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/citrus-carrot-tumeric-smoothie.avif" alt="Image">
+                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/citrus-carrot-tumeric-smoothie.png" alt="Image">
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
             <div id="product-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner bg-light">
                     <div class="carousel-item active">
-                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/creamy-pineapple-smoothie.avif" alt="Image">
+                        <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/recipes/creamy-pineapple-smoothie.png" alt="Image">
                     </div>
                 </div>
             </div>

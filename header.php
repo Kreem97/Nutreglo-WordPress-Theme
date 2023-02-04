@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Favicon -->
-    <link href="<?php echo get_template_directory_uri() ?>/img/nutreglologosmall.avif" rel="icon">
+    <link href="<?php echo get_template_directory_uri() ?>/img/nutreglologosmall.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -74,7 +74,7 @@
     <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
         <div class="col-lg-4">
             <a href="<?php echo get_site_url(); ?>" class="text-decoration-none">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglologosmall.avif" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglologosmall.png" alt="">
             </a>
         </div>
         <div class="col-lg-4 col-6 text-left">
@@ -124,7 +124,7 @@ foreach ($category_objs as $category) {
         <div class="col-lg-9">
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
                 <a href="<?php echo get_site_url(); ?>" class="text-decoration-none d-block d-lg-none" aria-label="Homepage">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglologosmall.avif" alt="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglologosmall.png" alt="">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Menu">
                     <span class="navbar-toggler-icon"></span>

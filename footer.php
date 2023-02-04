@@ -53,7 +53,7 @@
             </p>
         </div>
         <div class="col-md-6 px-xl-0 text-center text-md-right">
-            <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/payments.avif" alt="Payments">
+            <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>/img/payments.png" alt="Payments">
         </div>
     </div>
 </div>
@@ -63,7 +63,7 @@
 <!-- <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a> -->
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <?php wp_footer(); ?>
 

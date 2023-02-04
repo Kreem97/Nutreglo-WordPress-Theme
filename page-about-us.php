@@ -33,7 +33,7 @@
                 <h1>OUR MISSION</h1>
                 <p>We offer a wide assortment of products for your health, nutrition and enjoyment. We at Nutreglo products understand the importance of delivering high quality to our valued customers—not only in our wholesale bulk herbal products, but also in the provision of reliable product information, dependable delivery of every order placed with us, and outstanding customer service. We value progress without compromising our standards in our standards, and not only believe in, but also contribute to preserving the environment.</p>
                 <div class="carousel-item active">
-                    <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/about-us/product-types.avif" alt="Image">
+                    <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/about-us/product-types.png" alt="Image">
                 </div>
             </div>
         </div>
@@ -71,14 +71,14 @@
         <div class="col-lg-6 mb-30">
             <div class="h-100 bg-light p-30">
                 <div class="carousel-item active">
-                    <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/about-us/drinks.avif" alt="Image">
+                    <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/about-us/drinks.png" alt="Image">
                 </div>
             </div>
         </div>
         <div class="col-lg-6 mb-30">
             <div class="h-100 bg-light p-30">
                 <div class="carousel-item active">
-                    <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/about-us/making-smoothie.avif" alt="Image">
+                    <img class="w-100 h-100" src="<?php echo get_template_directory_uri(); ?>/img/about-us/making-smoothie.png" alt="Image">
                 </div>
             </div>
         </div>

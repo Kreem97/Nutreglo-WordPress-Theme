@@ -100,7 +100,7 @@ $categories_filter_html = '';
 $categoryCount = 1;
 foreach ($categories as $category => $numProducts) {
     $isChecked = '';
-    if(!empty($qp_cat)) { $isChecked = in_array(addslashes(str_replace('%26', '&', $category)), $qp_cat) ? ' checked' : ''; }
+    if(!empty($qp_cat)) { $isChecked = in_array(htmlspecialchars_decode(addslashes(str_replace('%26', '&', $category))), $qp_cat) ? ' checked' : ''; }
     $categories_filter_html .= '
     <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
         <input type="checkbox" class="custom-control-input shop-cat-checkbox" id="category-'.$categoryCount.'" data-category="'.$category.'" onchange="toggleCheckbox(\''.$qp_sort.'\')"'.$isChecked.'>
