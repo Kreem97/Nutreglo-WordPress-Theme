@@ -74,7 +74,7 @@
     <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
         <div class="col-lg-4">
             <a href="<?php echo get_site_url(); ?>" class="text-decoration-none">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglologosmall.png" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglowholesalelogosmall.png" alt="">
             </a>
         </div>
         <div class="col-lg-4 col-6 text-left">
@@ -124,7 +124,7 @@ foreach ($category_objs as $category) {
         <div class="col-lg-9">
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
                 <a href="<?php echo get_site_url(); ?>" class="text-decoration-none d-block d-lg-none" aria-label="Homepage">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglologosmall.png" alt="">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/nutreglowholesalelogosmall.png" alt="">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Menu">
                     <span class="navbar-toggler-icon"></span>
@@ -134,10 +134,10 @@ foreach ($category_objs as $category) {
                         <!-- add "active" class for color -->
                         <a href="<?php echo get_site_url(); ?>" class="nav-item nav-link">Home</a>
                         <a href="<?php echo get_site_url(); ?>/shop" class="nav-item nav-link">Shop</a>
-                        <a href="<?php echo get_site_url(); ?>/recipes" class="nav-item nav-link">Recipes</a>
-                        <a href="https://buynutregloproductswholesale.com/" class="nav-item nav-link">Wholesale</a>
+                        <a href="<?php echo get_site_url(); ?>/wholesale-policy" class="nav-item nav-link">Wholesale Policy</a>
                         <a href="<?php echo get_site_url(); ?>/about-us" class="nav-item nav-link">About Us</a>
                         <a href="<?php echo get_site_url(); ?>/contact" class="nav-item nav-link">Contact</a>
+                        <a href="https://nutregloproducts.com/" class="nav-item nav-link">Shop Retail</a>
                     </div>
                     <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                         <a href="<?php echo get_site_url(); ?>/cart" class="btn px-0 ml-3">

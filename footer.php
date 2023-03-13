@@ -19,20 +19,17 @@
         <div class="col-lg-8 col-md-12">
             <div class="row">
                 <div class="col-md-4 mb-5">
-                    <h5 class="text-secondary text-uppercase mb-4">Shop Retail</h5>
+                    <h5 class="text-secondary text-uppercase mb-4">Wholesale</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-secondary mb-2" href="<?php echo get_site_url(); ?>/return-policy"><i class="fa fa-angle-right mr-2"></i>Return/Refund
-                            Policy</a>
-                        <a class="text-secondary mb-2" href="<?php echo get_site_url(); ?>/shop"><i class="fa fa-angle-right mr-2"></i>Shop All Products</a>
+                        <a class="text-secondary mb-2" href="<?php echo get_site_url(); ?>/shop"><i class="fa fa-angle-right mr-2"></i>All Products</a>
+                        <a class="text-secondary mb-2" href="<?php echo get_site_url(); ?>/wholesale-policy"><i class="fa fa-angle-right mr-2"></i>Wholesale Policy</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
-                    <h5 class="text-secondary text-uppercase mb-4">Wholesale</h5>
+                    <h5 class="text-secondary text-uppercase mb-4">Retail</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Wholesale Policies</a>
-                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Register as a
-                            Reseller</a>
-                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Shop Wholesale</a>
+                        <a class="text-secondary mb-2" href="https://nutregloproducts.com/shop/"><i class="fa fa-angle-right mr-2"></i>Shop Retail</a>
+                        <a class="text-secondary mb-2" href="https://nutregloproducts.com/recipes/"><i class="fa fa-angle-right mr-2"></i>Recipes</a>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
