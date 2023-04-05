@@ -38,6 +38,7 @@ function load_scripts() {
 
     wp_register_script('mail-contact-script', get_template_directory_uri() . '/mail/contact.js', '', 1, true);
     wp_enqueue_script('mail-contact-script');
+    wp_localize_script( 'mail-contact-script', 'WPURLS', array( 'templateUrl' => get_template_directory_uri() ) );
 
     wp_register_script('main-script', get_template_directory_uri() . '/js/main.js', '', 1, true);
     wp_enqueue_script('main-script');
